@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'fa',
 
     /*
     |--------------------------------------------------------------------------
@@ -163,8 +163,24 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Madule Service Providers...
+         */
+         Alireza\Home\Providers\HomeServiceProvider::class,
+         Alireza\User\Providers\UserServiceProvider::class,
+         Alireza\Auth\Providers\AuthServiceProvider::class,
+         Alireza\Panel\Providers\PanelServiceProvider::class,
+         Alireza\Category\Providers\CategoryServiceProvider::class,
+         Alireza\Role\Providers\RoleServiceProvider::class,
+         Alireza\Article\Providers\ArticleServiceProvider::class,
+         Alireza\Comment\Providers\CommentServiceProvider::class,
+         Alireza\Share\Providers\ShareServiceProvider::class,
+        /*
          * Package Service Providers...
          */
+        Spatie\Permission\PermissionServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+
+
 
         /*
          * Application Service Providers...
@@ -187,6 +203,7 @@ return [
     | the aliases are "lazy" loaded so they don't hinder performance.
     |
     */
+
 
     'aliases' => [
 
@@ -229,7 +246,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
+        'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
 
     ],
+
 
 ];

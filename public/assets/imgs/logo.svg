@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 649.43 182.6" style="enable-background:new 0 0 649.43 182.6;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+     viewBox="0 0 649.43 182.6" style="enable-background:new 0 0 649.43 182.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#29ABE2;}
 	.st1{fill:url(#SVGID_1_);}
@@ -79,7 +79,7 @@
 		<stop  offset="1" style="stop-color:#CC3449"/>
 	</linearGradient>
 	<path class="st2" d="M55.15,34.21l54.45,79.46C109.6,113.66,95.36,37.1,55.15,34.21z"/>
-	
+
 		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="86.5985" y1="94.9916" x2="127.0986" y2="94.9916" gradientTransform="matrix(0.9969 0.133 -0.0792 0.9323 5.948 -41.1633)">
 		<stop  offset="0" style="stop-color:#FF546A"/>
 		<stop  offset="1" style="stop-color:#CC3449"/>
